@@ -130,3 +130,46 @@
 .optionCounterButton:disabled {
 	cursor: not-allowed;
 }
+
+/* Mediaquery voor mobiele schermen */
+@media (max-width: 768px) {
+	.headerContainer {
+		flex-direction: column;
+		/* Stapel items verticaal op */
+		text-align: center;
+		margin: 20px auto;
+		/* Centreren op mobiel */
+	}
+
+	.headerList {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.headerListItem {
+		margin: 5px 0;
+		padding: 5px;
+	}
+
+	.headerSearch {
+		display: flex;
+		flex-direction: column;
+		border: 2px solid gray;
+		position: inherit;
+		height: 200px;
+		width: 90%;
+		margin: auto;
+		margin-top: 10px;
+		z-index: 999;
+	}
+
+	.headerSearchItem {
+		position: inherit;
+		top: 300px;
+	}
+
+	.options {
+		position: relative;
+		/* Extra marge bovenaan voor betere leesbaarheid */
+	}
+}

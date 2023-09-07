@@ -41,3 +41,41 @@
 .fpRating>span {
 	font-size: 14px;
 }
+
+/* Mediaquery voor mobiele schermen */
+@media (max-width: 768px) {
+	.fp {
+		flex-direction: column;
+		/* Items stapelen onder elkaar */
+		align-items: center;
+		/* Centreer items horizontaal */
+		gap: 10px;
+		/* Voeg een ruimte van 10px tussen de items toe */
+
+
+	}
+
+	.fpItem {
+		width: 98%;
+		/* Volledige breedte innemen */
+		height: auto;
+		/* Pas de hoogte aan de inhoud aan */
+		border: 1px solid gray;
+		background-color: #003580;
+
+	}
+
+	.fpItem img {
+		object-fit: cover;
+
+	}
+
+	.fpName,
+	.fpCity,
+	.fpPrice,
+	.fpRating {
+		color: white;
+
+	}
+
+}

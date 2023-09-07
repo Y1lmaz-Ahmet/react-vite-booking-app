@@ -25,3 +25,13 @@
 .fListItem:hover {
 	color: #bc5b01;
 }
+
+/* Mediaquery voor mobiele schermen */
+@media (max-width: 768px) {
+	.footer {
+		display: flex;
+		flex-direction: column;
+		width: 90vw;
+		gap: 10px;
+	}
+}

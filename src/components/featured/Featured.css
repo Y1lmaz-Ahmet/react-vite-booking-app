@@ -1,3 +1,4 @@
+/* Originele CSS voor desktopschermen */
 .featured {
 	width: 100%;
 	max-width: 1024px;
@@ -24,4 +25,34 @@
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
+}
+
+/* Mediaquery voor mobiele schermen */
+@media (max-width: 768px) {
+	.featured {
+		flex-direction: column;
+		/* Items stapelen onder elkaar */
+		align-items: center;
+		/* Centreer items horizontaal */
+		gap: 10px;
+		/* Voeg een ruimte van 10px tussen de items toe */
+
+
+	}
+
+	.featuredItem {
+		width: 98%;
+		/* Volledige breedte innemen */
+		height: auto;
+		/* Pas de hoogte aan de inhoud aan */
+		border: 1px solid gray;
+		background-color: #003580;
+	}
+
+	.featuredTitles {
+		position: static;
+		/* Terug naar normale positie */
+		text-align: center;
+		/* Centreer tekst */
+	}
 }

@@ -29,3 +29,11 @@
 	border-radius: 5px;
 	cursor: pointer;
 }
+
+/* Mediaquery voor mobiele schermen */
+@media (max-width: 768px) {
+	.mailInputContainer {
+		width: 100%;
+		position: relative;
+	}
+}
