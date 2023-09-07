@@ -7,7 +7,7 @@ import PropertyList from "../../components/propertyList/PropertyList";
 import FeaturedProperties from "../../components/featuredProperties/FeaturedProperties";
 
 import Footer from "../../components/footer/Footer";
-import MailList from "../../components/mailList/mailList";
+import MailList from "../../components/mailList/MailList";
 const Home = () => {
   return (
     <div>
