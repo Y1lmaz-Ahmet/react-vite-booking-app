@@ -1,4 +1,4 @@
-import "./Featured.css";
+import "../featured/Featured.css";
 import React from "react";
 
 const Featured = () => {

@@ -1,4 +1,4 @@
-import "./FeaturedProperties.css";
+import "../featuredProperties/FeaturedProperties.css";
 import React from "react";
 
 const FeaturedProperties = () => {

@@ -1,4 +1,4 @@
-import "./SearchItem.css";
+import "../searchItem/SearchItem.css";
 import React from "react";
 
 const SearchItem = () => {

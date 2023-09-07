@@ -1,4 +1,4 @@
-import "./PropertyList.css";
+import "../propertyList/PropertyList.css";
 import React from "react";
 
 const PropertyList = () => {

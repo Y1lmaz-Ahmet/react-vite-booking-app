@@ -1,4 +1,4 @@
-import "./MailList.css";
+import "../mailList/MailList.css";
 import React from "react";
 
 const MailList = () => {
