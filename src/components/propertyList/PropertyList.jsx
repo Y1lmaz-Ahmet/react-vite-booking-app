@@ -23,8 +23,8 @@ const PropertyList = () => {
           className='pListImg'
         />
         <div className='pListTitles'>
-          <h1>Appartementen</h1>
-          <h2>1.258.742 appartementen</h2>
+          <h1>Apartments</h1>
+          <h2>1.258.742 Apartments</h2>
         </div>
       </div>
 

@@ -4,14 +4,14 @@ import React from "react";
 const MailList = () => {
   return (
     <div className='mail'>
-      <h1 className='mailTitle'>Bespaar tijd, bespaar geld!</h1>
+      <h1 className='mailTitle'>Save time, save money!</h1>
       <span className='mailDesc'>
-        Meld je aan en we sturen je de beste deals
+        Sign up, and we'll send you the best deals.
       </span>
 
       <div className='mailInputContainer'>
-        <input type='text' placeholder='uw email adres' />
-        <button>aanmelden</button>
+        <input type='text' placeholder='example@gmail.com' />
+        <button>Login</button>
       </div>
     </div>
   );
